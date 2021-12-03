@@ -1,0 +1,27 @@
+.navbar {
+    height: 6rem;
+    border-bottom: 2px solid $color3;
+    background-color: $color4;
+}
+
+.navbarList {
+    @include navbarMenu(space-around, center);
+    flex-wrap: wrap;
+}
+
+.navbarItem {
+    color: $color1;
+    font-size: 1.5rem;
+    font-family: $font2;
+}
+.navbarItem img {
+    height: 6rem;
+}
+
+.navbarLink {
+    text-decoration: none;
+    color: $color1;
+        &:hover {
+            color: $color5;
+        }
+}

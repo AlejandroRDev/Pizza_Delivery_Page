@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #252422;
+
+}
+
+@import './variables';
+@import './mixins';
+@import './navbar';
+@import './home';
+@import './concepto';
+@import './fotos';
+@import './menu';
+@import './reservas';

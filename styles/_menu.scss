@@ -1,0 +1,107 @@
+#menu {
+    background-color: $color1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw;
+    height: 1550px;
+    border-top: 2px solid $color4;
+    border-bottom: 2px solid $color4;
+}
+
+.menuHead {
+    display: flex;
+    flex-direction: column;
+    margin-top: 75px;
+    .menuTitle {
+        font-family: $font2;
+        font-size: 3rem;
+        text-align: center;
+        padding: 10px;
+        margin: 50px 20px 20px 20px;
+    }
+    .menuCategories {
+        list-style-type: none;
+        font-size: 1.3rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 500px;
+        padding: 10px;
+        margin: 20px 20px 20px 50px;
+        border: 2px solid $color5;
+        border-radius: 10px;
+        background-color: $color4;
+        color: $color1;
+
+    }
+}
+
+.menuImgContainer {
+    border: 2px solid $color4;
+    background-image: url('../assets/images/background_image3.jpg');
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60%;
+    height: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.cartaPage0 {
+    border: 1px solid $color5;
+    background-color: $color1;
+    margin: 50px 10px 50px 50px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.cartaPage1 {
+    border: 1px solid $color5;
+    background-color: $color1;
+    margin: 50px 50px 50px 10px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.cartaTablaTop {
+    margin-bottom: 50px;
+}
+.categoria {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: $font2;
+    color: $color5;
+}
+.comida {
+    padding: 30px;
+    text-align: center;
+    width: 50%;
+    color: $color4;
+    
+}
+
+.precio {
+    width: 50%;
+    padding: 30px;
+    text-align: center;
+}
+
+.buttonMenu {
+    padding: 1.2rem;
+    color: $color1;
+    background-color: $color5;
+    font-size: large;
+    margin: 10px 20px 50px 20px;
+    border-radius: 10px;
+    border: 2px solid $color4;
+}

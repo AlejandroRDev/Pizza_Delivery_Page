@@ -1,0 +1,71 @@
+#reservas {
+    background-image: url('../assets/images/background_reservas.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    min-height: 100vh;
+    border-bottom: 2px solid $color4;
+}
+
+.shadowReservas {
+    width: auto;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    @include textCenter(column);
+    .reservasTitle {
+        font-family: $font2;
+        color: $color1;
+        font-size: 4rem;
+        border-bottom: 3px solid $color5;
+    }
+}
+
+.reservasText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 40%;
+    padding: 25px;
+    border-left: 3px solid $color1;
+    border-right: 3px solid $color1;
+}
+.reservasTextTitle {
+    font-family: $font2;
+    font-size: 4rem;
+    color: $color1;
+}
+
+.reservasTextSubtitle {
+    font-size: 2rem;
+    color: $color5;
+}
+
+.reservasTextCaption {
+    font-size: 1rem;
+    color: $color1;
+}
+.reservasContent {
+    @include textCenter(column);
+    flex-direction: row;
+    .reservasForm {
+        display: flex;
+        flex-direction: column;
+        color: $color1;
+        font-family: $font2;
+        font-size: 1.5rem;
+        margin-right: 20px;
+        .label {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+    }
+}
+
+.input {
+    padding: 5px;
+}
+.inputOption {
+    padding: 5px;
+}

@@ -1,0 +1,30 @@
+#home {
+    background-image: url('../assets/images/background_image2.jpg');
+    width: auto;
+    height: 100vh;
+}
+
+.containerOp {
+   width: auto;
+   height: 100vh;
+   background-color: rgba(0, 0, 0, 0.4);
+   @include textCenter(column);
+   flex-wrap: wrap;
+}
+
+.homeTitle {
+    font-family: $font2;
+    font-size: 10rem;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    color: $color1;
+    border-bottom: 4px solid $color5;
+    
+}
+
+.homeCaption {
+    font-size: 2rem;
+    color: $color1;
+    margin: 1.5rem;
+    padding: 1.5rem;
+}

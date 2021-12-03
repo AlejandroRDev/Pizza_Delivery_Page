@@ -1,0 +1,39 @@
+#concepto {
+    border-top: 2px solid $color4;
+    background-image: url('../assets/images/background_imagehojas.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 100vh;
+    @include textCenter(column);
+    flex-wrap: wrap;
+    border-bottom: 2px solid $color4;
+    
+}
+span {
+    font-family: $font2;
+    margin: 0px 1rem;
+}
+
+
+.conceptoText {
+    background-color: $color1;
+    font-family: $font2;
+    font-size: 3rem;
+    color: $color5;
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid $color4;
+}
+
+.conceptoCaption {
+    font-size: 1.5rem;
+    color: color 5;
+    display: flex;
+    background-color: $color1;
+    width: 30%;
+    padding: 20px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid $color4;
+}

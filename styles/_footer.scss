@@ -1,0 +1,34 @@
+footer {
+   max-width: 100%;
+    height: 8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: black;
+  color: whitesmoke;
+  align-items: center;
+  align-content: center;
+  margin-top: 195px;
+  margin-bottom: 0px;
+  padding: 0px 20px;
+  border-top: 2px solid $color5;
+
+
+}
+
+.footerList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 100vw;
+    & ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        list-style-type: none;
+        padding: 20px;
+        font-family: $font2;
+    }
+}

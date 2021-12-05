@@ -7,7 +7,7 @@
     height: 100vh;
     @include textCenter(column);
     flex-wrap: wrap;
-    border-bottom: 2px solid $color4;
+    border-bottom: 2px solid $color1;
     
 }
 span {
@@ -35,5 +35,5 @@ span {
     width: 30%;
     padding: 20px;
     padding-bottom: 40px;
-    border-bottom: 2px solid $color4;
+    border-bottom: 2px solid $color1;
 }
